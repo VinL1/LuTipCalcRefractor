@@ -33,7 +33,7 @@ public class TipCalculatorRunner {
 
         System.out.println ("-----------------------------------------------------------");
         System.out.printf ("Total Bill Before Tip: $%.2f\n", calc1.getTotalBillBeforeTip ());
-        System.out.printf ("Tip Percentage: $%.2f\n", calc1.getTipPercentage ());
+        System.out.println ("Tip Percentage: " + calc1.getTipPercentage ());
         System.out.printf ("Total Tip: $%.2f\n", calc1.tipAmount ());
         System.out.printf ("Total Meal With Tip: $%.2f\n", calc1.totalBill ());
         System.out.printf ("Per Person Cost Before Tip: $%.2f\n", calc1.perPersonCostBeforeTip ());
